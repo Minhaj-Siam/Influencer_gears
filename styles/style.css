@@ -1,0 +1,40 @@
+/* Universal Styles */
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: 'liga' off, 'clig' off;
+}
+:root{
+    --primary-color:#3A3A3A;
+}
+/* Header related styles */
+
+/* Nav-bar related Styles */
+.item a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.item{
+    list-style: none;
+    
+}
+.nav-item{
+    display: flex;
+    gap: 34px;
+}
+/* Nav Title */
+.site-title{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 90px 120px 20px;
+    justify-content: space-between;
+}
